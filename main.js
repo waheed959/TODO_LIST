@@ -57,9 +57,6 @@ while (condition) {
             ]);
             if (SecondQuestion.SecondQuestion == "") {
                 console.log("YOU DIDN'T WRITE THE INDEX TO UPDATE");
-                if (todos.length == 0) {
-                    console.log(" AND YOU HAVE NOTHING TO UPDATE IN YOUR LIST");
-                }
             }
             else if (SecondQuestion.SecondQuestion >= todos.length) {
                 console.log("YOU HAVE ENTERED A WRONG INDEX");
@@ -99,9 +96,6 @@ while (condition) {
             ]);
             if (DELETED_ITEM.DELETED_ITEM == "") {
                 console.log("YOU DID NOT WRITE THE INDEX TO DELETE");
-                if (todos.length == 0) {
-                    console.log("AND YOU HAVE NOTHING TO DELETE");
-                }
             }
             else if (DELETED_ITEM.DELETED_ITEM >= todos.length) {
                 console.log("YOU HAVE ENTERED A WRONG INDEX");
